@@ -1,0 +1,10 @@
+node_modules/
+.cache/
+public
+dist
+src/gatsby-types.d.ts
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+.DS_Store
