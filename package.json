@@ -6,7 +6,7 @@
   "description": "NW.js starter template with Typescript, Gatsby and NW.ts-Tools. It works with the VSCode debugger out-of-the-box.",
   "scripts": {
     "postinstall": "node node_modules/nwts-tools/patch-zx.js",
-    "start": "npm run dev-hmr",
+    "start": "zx scripts/dev-build.mjs",
     "patch-codecs": "nwts-patch-codecs",
     "dev-hmr": "zx scripts/dev-hmr.mjs",
     "clean": "gatsby clean",

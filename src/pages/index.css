@@ -1,0 +1,28 @@
+body {
+  margin: 0px;
+}
+
+.app {
+  height: 100vh;
+  padding: 3vw;
+  padding-top: 1vh;
+  background-color: rgba(101, 152, 85, 0.791);
+  font-weight: 420;
+}
+
+.title {
+  min-height: 5vh;
+  font-size: calc(10px + 2vmin);
+  font-weight: 600;
+  margin-bottom: 2vh;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.logo {
+  pointer-events: none;
+  float: right;
+  padding: 1vw;
+  max-width: 30vw;
+  min-width: 10vw;
+}
